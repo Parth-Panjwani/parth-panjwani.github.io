@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from bostamihtml.ibthemespro.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Oct 2022 12:24:21 GMT -->
+<!-- Mirrored from bostamihtml.ibthemespro.com/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Oct 2022 12:24:21 GMT -->
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -44,20 +44,22 @@
     </script>
 </head>
 
-<body>
+<body style="background-color: #111111;">
+   
+    
+        <!-- header start for large screens -->
 
-    <div class="bg-homeBg dark:bg-homeTwoBg-dark min-h-screen bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full">
         <div class="section-bg">
             <div class="w-full flex justify-between px-4">
                 <!-- website Logo -->
                 <a href="">
-                    <img class="h-[20px] lg:h-[2px]" src="" alt="" />
+                    <img class="h-[20px] lg:h-[2px]" src="" alt="">
                 </a>
-                <div class="flex items-center">
+                <div class="flex items-center" style="justify-content: space-between; width: 100%; ">
                     <!-- dark and light mode toggle -->
                     <button id="theme-toggle" type="button" class="dark-light-btn">
                         <i id="theme-toggle-dark-icon" class="fa-solid text-xl fa-moon hidden"></i>
-                        <i id="theme-toggle-light-icon" class="fa-solid fa-sun text-xl hidden"></i>
+                        <i id="theme-toggle-light-icon" class="fa-solid fa-sun text-xl"></i>
                     </button>
                     <!-- mobile toggle button -->
                     <button id="menu-toggle" type="button" class="menu-toggle-btn">
@@ -73,7 +75,13 @@
             <ul
                 class="block rounded-b-[20px] shadow-md absolute left-0 top-20 z-[22222222222222] w-full bg-white dark:bg-[#1d1d1d]">
                 <li>
-                    <a class="mobile-menu-items" href="index.html">
+                    <a class="mobile-menu-items" href="homePage.html">
+                        <span class="mr-2 text-xl">
+                            <i class="fa-solid fa-house"></i>
+                        </span> Home </a>
+                </li>
+                <li>
+                    <a class="mobile-menu-items" href="about.html">
                         <span class="mr-2 text-xl">
                             <i class="fa-regular fa-user"></i>
                         </span>About </a>
@@ -160,7 +168,7 @@
                                 <div class="text-left ml-2.5">
                                     <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Email </p>
                                     <p class="dark:text-white" style="word-break:break-all;">
-                                        parthpanjwani29@gmail.com</p>
+                                        parthpanjwani29 <br> @gmail.com</p>
                                 </div>
                             </div>
                             <div class="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
@@ -196,10 +204,15 @@
             <div class="col-span-12 lg:col-span-8">
                 <!-- header for mobile devices start -->
                 <header
-                    class="lg:w-[560px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] bg-white dark:bg-[#111111]">
-                    <nav class="hidden lg:block">
-                        <ul class="flex">
-                            <li> <a class="menu-item" href="index.html">
+                class="lg:w-[660px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] bg-white dark:bg-[#111111]" style="width: 660px;" >
+                <nav class="hidden lg:block">
+                    <ul class="flex">
+                        <li> <a class="menu-item" href="index.html">
+                            <span class="text-xl mb-1">
+                                <i class="fa-solid fa-house"></i>
+                            </span> Home </a></li>
+                            
+                            <li> <a class="menu-item" href="about.html">
                                     <span class="text-xl mb-1">
                                         <i class="fa-regular fa-user"></i>
                                     </span> About </a></li>
