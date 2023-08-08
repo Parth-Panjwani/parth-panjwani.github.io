@@ -44,8 +44,8 @@
     </script>
 </head>
 
-<body style="background-color: #111111;">
-    
+<body>
+    <div class="bg-homeBg dark:bg-homeTwoBg-dark min-h-screen bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full">
     
     
         <!-- header start for large screens -->
@@ -98,12 +98,12 @@
                             <i class="fas fa-briefcase"></i>
                         </span>Works </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a class="mobile-menu-items" href="blogOne.html">
                         <span class="mr-2 text-xl">
                             <i class="fa-brands fa-blogger"></i>
                         </span>Blogs </a>
-                </li>
+                </li> -->
                 <li>
                     <a class="mobile-menu-items" href="contactOne.html">
                         <span class="mr-2 text-xl">
@@ -120,7 +120,7 @@
                 <div
                     class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0">
                     <!-- profile image -->
-                    <img src="images/about/avatar.jpg"
+                    <img src="images/about/Passport .png"
                         class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
                         alt="about" />
                     <div class="pt-[100px] pb-8">
@@ -193,7 +193,7 @@
                         <!-- personal infomation end-->
                         <!-- dowanload button -->
                         <button class="dowanload-btn">
-                            <a href="https://drive.google.com/file/d/1RYdfISKWtqrVR97xby1RENL0gHLxZxrX/view?usp=drivesdk"
+                            <a href="https://drive.google.com/file/d/1zRFbDB5QmA_xYhVu7o3ltB_OvdZeIDcO/view?usp=sharing"
                                 style="display: flex;">
                                 <img class="mr-3" src="images/icons/dowanload.png" alt="icon" /> Download CV
                             </a>
@@ -223,10 +223,10 @@
                                     <span class="text-xl mb-1">
                                         <i class="fas fa-briefcase"></i>
                                     </span> Works </a></li>
-                            <li><a class="menu-item" href="blogOne.html">
+                            <!-- <li><a class="menu-item" href="blogOne.html">
                                     <span class="text-xl mb-1">
                                         <i class="fa-brands fa-blogger"></i>
-                                    </span> Blogs </a></li>
+                                    </span> Blogs </a></li> -->
                             <li> <a class="menu-item" href="contactOne.html">
                                     <span class="text-xl mb-1">
                                         <i class="fa-solid fa-address-book"></i>
@@ -235,16 +235,53 @@
                     </nav>
                 </header>
                 <div>
-                    <div class="lg:rounded-2xl bg-white dark:bg-[#111111]">
-                        <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
-                            <h2 class="after-effect " style="padding-top: 30px;">Setting Up...</h2> <br> 
-                            
-                            <h2 class="after-effect">Coming Soon...</h2>
+                    <!-- resume section start -->
+                    <div class="bg-white lg:rounded-2xl dark:bg-[#111111]">
+                        <div class="container sm:px-5 md:px-10 lg:px-14">
+                            <div class="py-12 px-4 md:px-0">
+                                <!-- resume page title -->
+                                <h2 class="after-effect after:left-44">Projects</h2>
+                                <div class="grid grid-cols-1 gap-y-6 mt-[30px]">
+                                    
+                    <!-- project start -->
+                    <div>
+                        <div 
+                            class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg bg-[#eef5fa] dark:bg-transparent dark:border-[#212425] dark:border-2">
+                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]"> August 2023 - Present
+                            </span>
+                            <h3 class="text-xl dark:text-white"> PetGuard: Pet Helpline WebApp</h3>
+                            <p class="dark:text-[#b7b7b7]"> - Developing PetGuard: Pet Helpline WebApp using Java, Spring Boot, and MongoDB. Includes
+                            real-time helpline calls, location-based pet care centers, and first aid suggestions. </p>
+                        </div>
+                        <div
+                            class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg bg-[#eef5fa] dark:bg-transparent dark:border-[#212425] dark:border-2">
+                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]"> July 2023
+                            </span>
+                            <h3 class="text-xl dark:text-white"> Simple PHP Calculator </h3>
+                            <p class="dark:text-[#b7b7b7]"> - Created a user-friendly calculator using PHP, HTML, and CSS.
+                             <br> - Employed PHP for seamless calculations and HTML/CSS for an appealing user interface.</p>
+                        </div>
+                        <div
+                            class="bg-[#f2f4ff] dark:bg-transparent py-4 pl-5 pr-3 space-y-2 rounded-lg mb-6 dark:border-[#212425] dark:border-2">
+                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">January 2023 - April 2023</span>
+                            <h3 class="text-xl dark:text-white"> React Frontend Project </h3>
+                            <p class="dark:text-[#b7b7b7]">- Designed and developed a responsive and interactive Spotify Clone using React JS, delivering a seamless music streaming
+                            experience.</p>
+                        </div>
+                        <div
+                            class="py-4 bg-[#eef5fa] dark:bg-transparent pl-5 pr-3 space-y-2 rounded-lg dark:border-[#212425] dark:border-2">
+                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">September 2022 - December 2022</span>
+                            <h3 class="text-xl dark:text-white">Employee Management System</h3>
+                            <p class="dark:text-[#b7b7b7]"> Developed an Employee Management System using Swing and Java for a semester project, featuring robust functionalities. </p>
+                        </div>
+                    </div>
+                    <!-- experiment start -->
     <!--==== js =====-->
     <script src="js/vendor/jquary.min.js"></script>
     <script src="js/vendor/slick.js"></script>
     <!-- main js -->
     <script src="js/main.js"></script>
+    </div>
 </body>
 
 </html>
