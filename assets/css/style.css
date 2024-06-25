@@ -1315,10 +1315,34 @@ textarea.form-input::-webkit-resizer {
 .form-input:focus:invalid {
   border-color: var(--bittersweet-shimmer);
 }
+.resume-link{
+  text-decoration: none;
+  color: inherit;
+}
+.resume-btn::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+  transition: var(--transition-1);
+}
+.resume-btn ion-icon {
+  font-size: 16px;
+}
+
+.resume-btn:hover {
+  background: var(--bg-gradient-yellow-1);
+}
+
+.resume-btn:hover::before {
+  background: var(--bg-gradient-yellow-2);
+}
 .resume-btn {
   position: relative;
-  background: var(--orange-yellow-crayola);
-  color: var(--border-gradient-onyx);
+  background: var(--border-gradient-onyx);
+  color: var(--orange-yellow-crayola);
   display: flex;
   justify-content: center;
   align-items: center;
